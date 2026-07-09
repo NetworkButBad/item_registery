@@ -1,0 +1,78 @@
+{
+  "id": "wind_burst_mace",
+  "material": "MACE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 500,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Wind Burst ",
+          "color": "white",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "| ",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "Mace",
+          "color": "light_purple",
+          "italic": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.mace"
+    },
+    "ITEM_MODEL": "minecraft:mace",
+    "LORE": [],
+    "RARITY": "epic",
+    "ENCHANTMENTS": {
+      "minecraft:binding_curse": 1,
+      "minecraft:vanishing_curse": 1,
+      "minecraft:wind_burst": 10
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 5.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -3.4000000953674316,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "TOOL": {
+      "rules": [],
+      "damage_per_block": 2,
+      "can_destroy_blocks_in_creative": false
+    },
+    "WEAPON": {},
+    "ENCHANTABLE": {
+      "value": 15
+    },
+    "REPAIRABLE": {
+      "items": "minecraft:breeze_rod"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
