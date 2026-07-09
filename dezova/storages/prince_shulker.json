@@ -1,0 +1,463 @@
+{
+  "id": "prince_shulker",
+  "material": "YELLOW_SHULKER_BOX",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "PRINCE",
+          "color": "yellow",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "block.minecraft.yellow_shulker_box"
+    },
+    "ITEM_MODEL": "minecraft:yellow_shulker_box",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Made by Dezova",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:attribute_modifiers",
+        "minecraft:unbreakable",
+        "minecraft:can_break",
+        "minecraft:can_place_on",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:stored_enchantments"
+      ]
+    },
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "CONTAINER": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:golden_helmet",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:redstone",
+              "pattern": "minecraft:shaper"
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "PRINCE/PRINCESS ITEM",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:8a1f2033-f7c6-4fb3-a2d0-26220d1d6585",
+                "amount": 3.0,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:protection": 3
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Crown Of Rubies",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 1,
+        "item": {
+          "id": "minecraft:leather_chestplate",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:quartz",
+              "pattern": "minecraft:tide"
+            },
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Royal Cloak",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "PRINCE/PRINCESS ITEM",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 16776960,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:b2af8002-ad5e-4990-a664-401496808e1a",
+                "amount": 4.0,
+                "operation": "add_value",
+                "slot": "chest"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 2,
+        "item": {
+          "id": "minecraft:leather_leggings",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "PRINCE/PRINCESS ITEM",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 16766720,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:4d8e6a58-0dd1-4728-a2b3-d9849d2e0b5b",
+                "amount": 4.0,
+                "operation": "add_value",
+                "slot": "legs"
+              },
+              {
+                "type": "minecraft:movement_speed",
+                "id": "minecraft:629dfa41-43bd-4f0d-9263-7c06ff5a71e2",
+                "amount": 0.1,
+                "operation": "add_multiplied_base",
+                "slot": "legs"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Leather Trousers",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 3,
+        "item": {
+          "id": "minecraft:golden_boots",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "PRINCE/PRINCESS ITEM",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:8f837377-2fa7-4af0-a56a-fc4a3dc75466",
+                "amount": 2.0,
+                "operation": "add_value",
+                "slot": "feet"
+              },
+              {
+                "type": "minecraft:movement_speed",
+                "id": "minecraft:e59e3aeb-b9a8-46ec-862d-be21cc0551c9",
+                "amount": 0.1,
+                "operation": "add_multiplied_base",
+                "slot": "feet"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Slippers",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 4,
+        "item": {
+          "id": "minecraft:golden_sword",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "PRINCE/PRINCESS ITEM",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:bb59a7d5-d1a7-489c-86e8-8fc1d415a432",
+                "amount": 4.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:e9628520-822d-4eab-b8bd-d017b2d0464a",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:sweeping_edge": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Gilded Dagger",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 5,
+        "item": {
+          "id": "minecraft:bow",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Maple Longbow",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:enchantments": {
+              "minecraft:power": 1
+            },
+            "minecraft:unbreakable": {}
+          }
+        }
+      },
+      {
+        "slot": 6,
+        "item": {
+          "id": "minecraft:iron_shovel",
+          "count": 1,
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:sharpness": 2
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "Kill someone with this to put them on your head!",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Handcuffs",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:enchantments",
+                "minecraft:unbreakable"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 7,
+        "item": {
+          "id": "minecraft:tripwire_hook",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Keycard",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
