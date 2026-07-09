@@ -1,0 +1,490 @@
+{
+  "id": "knight_shulker",
+  "material": "LIGHT_GRAY_SHULKER_BOX",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "KNIGHT",
+          "color": "gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "block.minecraft.light_gray_shulker_box"
+    },
+    "ITEM_MODEL": "minecraft:light_gray_shulker_box",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Made by Dezova",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:attribute_modifiers",
+        "minecraft:unbreakable",
+        "minecraft:can_break",
+        "minecraft:can_place_on",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:stored_enchantments"
+      ]
+    },
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "CONTAINER": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:iron_helmet",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:379e9f10-87c1-47ae-bf1e-fbc66dcb71da",
+                "amount": 2.5,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Armet",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 1,
+        "item": {
+          "id": "minecraft:leather_chestplate",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:iron",
+              "pattern": "minecraft:raiser"
+            },
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 2,
+              "minecraft:protection": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Plated Body Chest",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 9868179,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:c460ddf2-b485-4adb-a885-84a87b6192af",
+                "amount": 6.0,
+                "operation": "add_value",
+                "slot": "chest"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 2,
+        "item": {
+          "id": "minecraft:chainmail_leggings",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 3,
+              "minecraft:protection": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Chainmail Leggings",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 3,
+        "item": {
+          "id": "minecraft:leather_boots",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Worn Out Shoes",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 3354672,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:d152b3df-128c-4fa9-9d9b-9178850e920c",
+                "amount": 2.5,
+                "operation": "add_value",
+                "slot": "feet"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:protection": 1
+            }
+          }
+        }
+      },
+      {
+        "slot": 4,
+        "item": {
+          "id": "minecraft:iron_sword",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:03f1ac17-e4a4-4c80-b15a-cf66d260a68e",
+                "amount": 3.5,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:59ef14b7-a10c-4380-9269-572bf1a719c5",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:sweeping_edge": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Arming Sword",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 5,
+        "item": {
+          "id": "minecraft:bow",
+          "count": 1,
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "KNIGHT ITEM",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Pine Shortbow",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {}
+          }
+        }
+      },
+      {
+        "slot": 6,
+        "item": {
+          "id": "minecraft:iron_shovel",
+          "count": 1,
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:sharpness": 2
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "Kill someone with this to put them on your head!",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Handcuffs",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:enchantments",
+                "minecraft:unbreakable"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 7,
+        "item": {
+          "id": "minecraft:clay_ball",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Noble Horse",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "Click this to summon a horse!",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 8,
+        "item": {
+          "id": "minecraft:tripwire_hook",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Keycard",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

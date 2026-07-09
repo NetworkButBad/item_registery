@@ -1,0 +1,466 @@
+{
+  "id": "bodyguard_shulker",
+  "material": "BLACK_SHULKER_BOX",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "BODYGUARD",
+          "color": "dark_gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "block.minecraft.black_shulker_box"
+    },
+    "ITEM_MODEL": "minecraft:black_shulker_box",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Made by Dezova",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:attribute_modifiers",
+        "minecraft:unbreakable",
+        "minecraft:can_break",
+        "minecraft:can_place_on",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:stored_enchantments"
+      ]
+    },
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "CONTAINER": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:leather_helmet",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Barbute",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 1315859,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:8da0df8b-ec0b-46fa-8e99-4a0b18d877db",
+                "amount": 3.5,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 1
+            }
+          }
+        }
+      },
+      {
+        "slot": 1,
+        "item": {
+          "id": "minecraft:netherite_chestplate",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:netherite",
+              "pattern": "minecraft:rib"
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:movement_speed",
+                "id": "minecraft:0889c1ff-9e5f-47db-b7d7-883f564c8767",
+                "amount": -0.1,
+                "operation": "add_multiplied_base",
+                "slot": "chest"
+              },
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:044aac9f-e2ae-4973-9866-a715896a84c3",
+                "amount": 6.5,
+                "operation": "add_value",
+                "slot": "chest"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:protection": 3
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Steel Plate",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 2,
+        "item": {
+          "id": "minecraft:leather_leggings",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 3881784,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:f78e561c-abf9-40e3-b7b0-53bfaac557c1",
+                "amount": 4.5,
+                "operation": "add_value",
+                "slot": "legs"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "slot": 3,
+        "item": {
+          "id": "minecraft:iron_boots",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:netherite",
+              "pattern": "minecraft:coast"
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:cf9aaf2a-d99d-40b2-b8e3-0fb53b236f29",
+                "amount": 2.5,
+                "operation": "add_value",
+                "slot": "feet"
+              },
+              {
+                "type": "minecraft:movement_speed",
+                "id": "minecraft:908733b1-2466-48ad-992a-9cf6eb8a1817",
+                "amount": -0.05,
+                "operation": "add_multiplied_base",
+                "slot": "feet"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 1,
+              "minecraft:protection": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Iron Plated Boots",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 4,
+        "item": {
+          "id": "minecraft:stone_sword",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:e42a977f-2c0e-4d88-8a18-68cd8c8c3df0",
+                "amount": 3.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:9cce6067-512f-46ce-98cd-e87d4adb3c9e",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:sharpness": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Dull Dagger",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 5,
+        "item": {
+          "id": "minecraft:crossbow",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "BODYGUARD ITEM",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:piercing": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Oak Crossbow",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 6,
+        "item": {
+          "id": "minecraft:iron_shovel",
+          "count": 1,
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:sharpness": 2
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "Kill someone with this to put them on your head!",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Handcuffs",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:tooltip_display": {
+              "hidden_components": [
+                "minecraft:enchantments",
+                "minecraft:unbreakable"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 7,
+        "item": {
+          "id": "minecraft:tripwire_hook",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Keycard",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

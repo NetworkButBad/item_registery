@@ -1,0 +1,505 @@
+{
+  "id": "outlaw_shulker",
+  "material": "ORANGE_SHULKER_BOX",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "OUTLAW",
+          "color": "gold",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "block.minecraft.orange_shulker_box"
+    },
+    "ITEM_MODEL": "minecraft:orange_shulker_box",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Made by Dezova",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:attribute_modifiers",
+        "minecraft:unbreakable",
+        "minecraft:can_break",
+        "minecraft:can_place_on",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:stored_enchantments"
+      ]
+    },
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "CONTAINER": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:chainmail_helmet",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:52b4ba76-5e4a-4ed1-8222-72c8003c2a2e",
+                "amount": 2.5,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:protection": 1
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Broken Knight Helmet",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 1,
+        "item": {
+          "id": "minecraft:chainmail_chestplate",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:2fd0ef7c-3176-4a22-bc9d-fab4db1124e9",
+                "amount": 5.0,
+                "operation": "add_value",
+                "slot": "chest"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 1,
+              "minecraft:protection": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Makeshift Robe",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 2,
+        "item": {
+          "id": "minecraft:leather_leggings",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Worn Out Pants",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 16422912,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:9bc9ff02-8098-4ce9-a416-adf600caef22",
+                "amount": 4.0,
+                "operation": "add_value",
+                "slot": "legs"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 2
+            }
+          }
+        }
+      },
+      {
+        "slot": 3,
+        "item": {
+          "id": "minecraft:leather_boots",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:dyed_color": 3350272,
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:b8055f36-5fd0-4c61-a501-e7a2692d21a2",
+                "amount": 2.0,
+                "operation": "add_value",
+                "slot": "feet"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Old Boots",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 4,
+        "item": {
+          "id": "minecraft:stone_sword",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:ff4cacc5-37f2-456b-ba40-97f08d931dd8",
+                "amount": 3.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:8add2281-ef61-4cf4-be30-cfc380e483fe",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Stone Dagger",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 9,
+        "item": {
+          "id": "minecraft:chainmail_helmet",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:iron",
+              "pattern": "minecraft:silence"
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:6171d267-706f-4e2f-b57b-5cf53c1c49de",
+                "amount": 3.5,
+                "operation": "add_value",
+                "slot": "head"
+              }
+            ],
+            "minecraft:enchantments": {
+              "minecraft:projectile_protection": 2
+            },
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Bandaged Knight Helmet",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 10,
+        "item": {
+          "id": "minecraft:golden_chestplate",
+          "count": 1,
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:iron",
+              "pattern": "minecraft:shaper"
+            },
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:armor",
+                "id": "minecraft:1f30fd4e-1a45-40e7-b0b2-9d88919b85fb",
+                "amount": 5.5,
+                "operation": "add_value",
+                "slot": "chest"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Brass Chestplate",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 13,
+        "item": {
+          "id": "minecraft:iron_sword",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "OUTLAW ITEM",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:3839c721-364d-4ac4-a39e-e6e56dc14b8d",
+                "amount": -2.4,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:caf7185b-9277-4db5-b655-4d9bd2eff6f4",
+                "amount": 3.5,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Dull Longsword",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

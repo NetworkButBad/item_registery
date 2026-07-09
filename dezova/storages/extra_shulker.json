@@ -1,0 +1,183 @@
+{
+  "id": "extra_shulker",
+  "material": "BROWN_SHULKER_BOX",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "EXTRAS",
+          "color": "dark_green",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "block.minecraft.brown_shulker_box"
+    },
+    "ITEM_MODEL": "minecraft:brown_shulker_box",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Made by Dezova",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {
+      "hidden_components": [
+        "minecraft:enchantments",
+        "minecraft:attribute_modifiers",
+        "minecraft:unbreakable",
+        "minecraft:can_break",
+        "minecraft:can_place_on",
+        "minecraft:dyed_color",
+        "minecraft:trim",
+        "minecraft:stored_enchantments"
+      ]
+    },
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "CONTAINER": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:stone_axe",
+          "count": 1,
+          "components": {
+            "minecraft:unbreakable": {},
+            "minecraft:lore": [
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "The nerf this finally needed!",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              }
+            ],
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:attack_speed",
+                "id": "minecraft:3a33c32e-8f06-4629-9db0-7b3cbd86b308",
+                "amount": -3.5,
+                "operation": "add_value",
+                "slot": "mainhand"
+              },
+              {
+                "type": "minecraft:attack_damage",
+                "id": "minecraft:324e5e89-924e-437b-9c78-5798fce6b37e",
+                "amount": 5.0,
+                "operation": "add_value",
+                "slot": "mainhand"
+              }
+            ],
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Bandaged Hatchet",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "slot": 1,
+        "item": {
+          "id": "minecraft:bow",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Oak Longbow",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:enchantments": {
+              "minecraft:power": 1
+            },
+            "minecraft:unbreakable": {}
+          }
+        }
+      },
+      {
+        "slot": 2,
+        "item": {
+          "id": "minecraft:bow",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Oak Bow",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            "minecraft:unbreakable": {}
+          }
+        }
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
