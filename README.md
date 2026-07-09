@@ -1,4 +1,4 @@
 # item_registery
 
-
-> Test from the Item registery on KingsButBad build server.
+The item reigstery is a public place that is used to support anyone.
+Allowing to balance/add/fix and items stats.
