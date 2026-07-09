@@ -1,0 +1,128 @@
+{
+  "id": "test",
+  "material": "IRON_BOOTS",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 195,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Cool Boots",
+          "color": "gray",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.iron_boots"
+    },
+    "ITEM_MODEL": "minecraft:iron_boots",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "cool",
+            "color": "aqua",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": " :)",
+            "color": "yellow",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:projectile_protection": 4,
+      "minecraft:protection": 1,
+      "minecraft:unbreaking": 9
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.boots",
+        "amount": 2.0,
+        "operation": "add_value",
+        "slot": "feet"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.boots",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "feet"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 9
+    },
+    "EQUIPPABLE": {
+      "slot": "feet",
+      "equip_sound": "minecraft:item.armor.equip_iron",
+      "asset_id": "minecraft:iron"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_iron_armor"
+    },
+    "SWING_ANIMATION": {},
+    "TRIM": {
+      "material": "minecraft:amethyst",
+      "pattern": "minecraft:flow"
+    },
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
