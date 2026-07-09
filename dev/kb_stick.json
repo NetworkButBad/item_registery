@@ -1,0 +1,36 @@
+{
+  "id": "kb_stick",
+  "material": "STICK",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Knockback Stick",
+          "color": "red",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.stick"
+    },
+    "ITEM_MODEL": "minecraft:stick",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:knockback": 10
+    },
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
