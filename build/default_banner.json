@@ -1,0 +1,34 @@
+{
+  "id": "default_banner",
+  "material": "RED_BANNER",
+  "components": {
+    "MAX_STACK_SIZE": 16,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "block.minecraft.red_banner"
+    },
+    "ITEM_MODEL": "minecraft:red_banner",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "BANNER_PATTERNS": [
+      {
+        "pattern": "minecraft:flower",
+        "color": "orange"
+      },
+      {
+        "pattern": "minecraft:straight_cross",
+        "color": "white"
+      },
+      {
+        "pattern": "minecraft:circle",
+        "color": "yellow"
+      }
+    ],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
