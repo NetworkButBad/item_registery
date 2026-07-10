@@ -1,0 +1,45 @@
+{
+  "id": "golden_apple",
+  "material": "GOLDEN_APPLE",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.golden_apple"
+    },
+    "ITEM_MODEL": "minecraft:golden_apple",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "FOOD": {
+      "nutrition": 4,
+      "saturation": 9.6,
+      "can_always_eat": true
+    },
+    "CONSUMABLE": {
+      "on_consume_effects": [
+        {
+          "effects": [
+            {
+              "id": "minecraft:regeneration",
+              "amplifier": 1,
+              "duration": 100,
+              "show_icon": true
+            },
+            {
+              "id": "minecraft:absorption",
+              "duration": 2400,
+              "show_icon": true
+            }
+          ],
+          "type": "minecraft:apply_effects"
+        }
+      ]
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "prison_guard_chestplate",
+  "material": "IRON_CHESTPLATE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 240,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "PrisonGuard\u0027s Chestplate",
+          "color": "blue",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.iron_chestplate"
+    },
+    "ITEM_MODEL": "minecraft:iron_chestplate",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.chestplate",
+        "amount": 6.0,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.chestplate",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 9
+    },
+    "EQUIPPABLE": {
+      "slot": "chest",
+      "equip_sound": "minecraft:item.armor.equip_iron",
+      "asset_id": "minecraft:iron"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_iron_armor"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "stone_axe",
+  "material": "STONE_AXE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 131,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.stone_axe"
+    },
+    "ITEM_MODEL": "minecraft:stone_axe",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 8.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -3.200000047683716,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "TOOL": {
+      "rules": [
+        {
+          "blocks": "#minecraft:incorrect_for_stone_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/axe",
+          "speed": 4.0,
+          "correct_for_drops": true
+        }
+      ]
+    },
+    "WEAPON": {
+      "item_damage_per_attack": 2,
+      "disable_blocking_for_seconds": 5.0
+    },
+    "ENCHANTABLE": {
+      "value": 5
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:stone_tool_materials"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "leather_helmet",
+  "material": "LEATHER_HELMET",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 55,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.leather_helmet"
+    },
+    "ITEM_MODEL": "minecraft:leather_helmet",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Buy $50",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.helmet",
+        "amount": 1.0,
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.helmet",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 15
+    },
+    "EQUIPPABLE": {
+      "slot": "head",
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "asset_id": "minecraft:leather"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_leather_armor"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

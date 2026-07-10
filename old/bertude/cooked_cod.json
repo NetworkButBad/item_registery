@@ -1,0 +1,25 @@
+{
+  "id": "cooked_cod",
+  "material": "COOKED_COD",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.cooked_cod"
+    },
+    "ITEM_MODEL": "minecraft:cooked_cod",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "FOOD": {
+      "nutrition": 5,
+      "saturation": 6.0
+    },
+    "CONSUMABLE": {},
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

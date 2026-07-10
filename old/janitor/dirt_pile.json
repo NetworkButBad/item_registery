@@ -1,0 +1,31 @@
+{
+  "id": "dirt_pile",
+  "material": "BROWN_DYE",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.brown_dye"
+    },
+    "ITEM_MODEL": "minecraft:brown_dye",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Sell $30",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

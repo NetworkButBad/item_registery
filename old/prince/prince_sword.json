@@ -1,0 +1,80 @@
+{
+  "id": "prince_sword",
+  "material": "GOLDEN_SWORD",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 32,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Prince\u0027s Dagger",
+          "color": "gold",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.golden_sword"
+    },
+    "ITEM_MODEL": "minecraft:golden_sword",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:sharpness": 3
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.4000000953674316,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "TOOL": {
+      "rules": [
+        {
+          "blocks": "minecraft:cobweb",
+          "speed": 15.0,
+          "correct_for_drops": true
+        },
+        {
+          "blocks": "#minecraft:sword_instantly_mines",
+          "speed": 3.4028235E38
+        },
+        {
+          "blocks": "#minecraft:sword_efficient",
+          "speed": 1.5
+        }
+      ],
+      "damage_per_block": 2,
+      "can_destroy_blocks_in_creative": false
+    },
+    "WEAPON": {},
+    "ENCHANTABLE": {
+      "value": 22
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:gold_tool_materials"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "strong_bow",
+  "material": "BOW",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 384,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Strong Bow",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.bow"
+    },
+    "ITEM_MODEL": "minecraft:bow",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Buy $850",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 1
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

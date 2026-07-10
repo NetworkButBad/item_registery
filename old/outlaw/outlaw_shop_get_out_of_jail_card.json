@@ -1,0 +1,30 @@
+{
+  "id": "outlaw_shop_get_out_of_jail_card",
+  "material": "PAPER",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Get-Out-Of-Jail-Free-Card",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.paper"
+    },
+    "ITEM_MODEL": "minecraft:paper",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

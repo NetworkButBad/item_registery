@@ -1,0 +1,71 @@
+{
+  "id": "prisoner_pickaxe",
+  "material": "IRON_PICKAXE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 250,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Miner\u0027s Pickaxe",
+          "italic": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.iron_pickaxe"
+    },
+    "ITEM_MODEL": "minecraft:iron_pickaxe",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "CAN_BREAK": {
+      "blocks": "minecraft:deepslate_coal_ore"
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.799999952316284,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "TOOL": {
+      "rules": [
+        {
+          "blocks": "#minecraft:incorrect_for_iron_tool",
+          "correct_for_drops": false
+        },
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "speed": 6.0,
+          "correct_for_drops": true
+        }
+      ]
+    },
+    "WEAPON": {
+      "item_damage_per_attack": 2
+    },
+    "ENCHANTABLE": {
+      "value": 14
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:iron_tool_materials"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

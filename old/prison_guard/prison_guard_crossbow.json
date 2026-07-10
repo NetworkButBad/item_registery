@@ -1,0 +1,41 @@
+{
+  "id": "prison_guard_crossbow",
+  "material": "CROSSBOW",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 465,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "PrisonGuard\u0027s Crossbow",
+          "color": "blue",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.crossbow"
+    },
+    "ITEM_MODEL": "minecraft:crossbow",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 1
+    },
+    "SWING_ANIMATION": {},
+    "CHARGED_PROJECTILES": [],
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

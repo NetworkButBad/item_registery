@@ -1,0 +1,74 @@
+{
+  "id": "wooden_sword",
+  "material": "WOODEN_SWORD",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 59,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.wooden_sword"
+    },
+    "ITEM_MODEL": "minecraft:wooden_sword",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Buy $30",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.4000000953674316,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "TOOL": {
+      "rules": [
+        {
+          "blocks": "minecraft:cobweb",
+          "speed": 15.0,
+          "correct_for_drops": true
+        },
+        {
+          "blocks": "#minecraft:sword_instantly_mines",
+          "speed": 3.4028235E38
+        },
+        {
+          "blocks": "#minecraft:sword_efficient",
+          "speed": 1.5
+        }
+      ],
+      "damage_per_block": 2,
+      "can_destroy_blocks_in_creative": false
+    },
+    "WEAPON": {},
+    "ENCHANTABLE": {
+      "value": 15
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:wooden_tool_materials"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

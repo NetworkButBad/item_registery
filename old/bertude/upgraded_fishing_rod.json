@@ -1,0 +1,27 @@
+{
+  "id": "upgraded_fishing_rod",
+  "material": "FISHING_ROD",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 64,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.fishing_rod"
+    },
+    "ITEM_MODEL": "minecraft:fishing_rod",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:lure": 2
+    },
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 1
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "water",
+  "material": "POTION",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Water",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.potion"
+    },
+    "ITEM_MODEL": "minecraft:potion",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "CONSUMABLE": {
+      "animation": "drink",
+      "sound": "minecraft:entity.generic.drink",
+      "has_consume_particles": false
+    },
+    "USE_REMAINDER": {
+      "id": "minecraft:glass_bottle",
+      "count": 1
+    },
+    "SWING_ANIMATION": {},
+    "POTION_CONTENTS": {
+      "custom_color": 3949823
+    },
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

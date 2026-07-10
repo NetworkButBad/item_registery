@@ -1,0 +1,59 @@
+{
+  "id": "leather_chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 80,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.leather_chestplate"
+    },
+    "ITEM_MODEL": "minecraft:leather_chestplate",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Buy $50",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.chestplate",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.chestplate",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 15
+    },
+    "EQUIPPABLE": {
+      "slot": "chest",
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "asset_id": "minecraft:leather"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_leather_armor"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "id": "king_crown",
+  "material": "GOLDEN_HELMET",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 77,
+    "DAMAGE": 0,
+    "UNBREAKABLE": {},
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "King\u0027s ",
+          "color": "#FFFF00",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "C",
+          "color": "#FF4046",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "r",
+          "color": "#FF7035",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "o",
+          "color": "#FFA023",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "w",
+          "color": "#FFCF12",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        },
+        {
+          "text": "n",
+          "color": "#FFFF00",
+          "bold": true,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.golden_helmet"
+    },
+    "ITEM_MODEL": "minecraft:golden_helmet",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "A crown worn by mighty kings while ruling their kingdom.",
+            "color": "gray",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      },
+      "",
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Drop ",
+            "color": "#FF0400",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": "t",
+            "color": "#FFDD00",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": "h",
+            "color": "#FFDF07",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": "i",
+            "color": "#FFE20F",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": "s",
+            "color": "#FFE416",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": " to ",
+            "color": "#FF2F00",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": "Resign.",
+            "color": "#910005",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          },
+          {
+            "text": " ",
+            "color": "#FF2F00",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:protection": 5
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.helmet",
+        "amount": 2.0,
+        "operation": "add_value",
+        "slot": "head"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.helmet",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "head"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 25
+    },
+    "EQUIPPABLE": {
+      "slot": "head",
+      "equip_sound": "minecraft:item.armor.equip_gold",
+      "asset_id": "minecraft:gold"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_gold_armor"
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}

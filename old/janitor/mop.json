@@ -1,0 +1,34 @@
+{
+  "id": "mop",
+  "material": "BONE",
+  "components": {
+    "MAX_STACK_SIZE": 64,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.bone"
+    },
+    "ITEM_MODEL": "minecraft:bone",
+    "LORE": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": "Get Mop",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "RARITY": "common",
+    "ENCHANTMENTS": {},
+    "CAN_BREAK": {
+      "blocks": "minecraft:brown_concrete_powder"
+    },
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
