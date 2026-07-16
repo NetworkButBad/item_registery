@@ -34,7 +34,7 @@
     "ITEM_NAME": {
       "translate": "item.minecraft.mace"
     },
-    "ITEM_MODEL": "minecraft:mace",
+    "ITEM_MODEL": "minecraft:golden_axe",
     "LORE": [],
     "RARITY": "epic",
     "ENCHANTMENTS": {

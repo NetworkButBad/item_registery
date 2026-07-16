@@ -24,7 +24,7 @@
     "ITEM_NAME": {
       "translate": "item.minecraft.iron_boots"
     },
-    "ITEM_MODEL": "minecraft:diamond_boots",
+    "ITEM_MODEL": "minecraft:1",
     "LORE": [
       {
         "text": "",
