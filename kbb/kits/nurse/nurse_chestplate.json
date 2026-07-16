@@ -1,0 +1,65 @@
+{
+  "id": "nurse_chestplate",
+  "material": "LEATHER_CHESTPLATE",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 80,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "CUSTOM_NAME": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Curiass",
+          "color": "light_purple",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ]
+    },
+    "ITEM_NAME": {
+      "translate": "item.minecraft.leather_chestplate"
+    },
+    "ITEM_MODEL": "minecraft:leather_chestplate",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:protection": 1
+    },
+    "ATTRIBUTE_MODIFIERS": [
+      {
+        "type": "minecraft:armor",
+        "id": "minecraft:armor.chestplate",
+        "amount": 3.0,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "type": "minecraft:armor_toughness",
+        "id": "minecraft:armor.chestplate",
+        "amount": 0.0,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 15
+    },
+    "EQUIPPABLE": {
+      "slot": "chest",
+      "equip_sound": "minecraft:item.armor.equip_leather",
+      "asset_id": "minecraft:leather"
+    },
+    "REPAIRABLE": {
+      "items": "#minecraft:repairs_leather_armor"
+    },
+    "SWING_ANIMATION": {},
+    "DYED_COLOR": 8991416,
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
