@@ -1,0 +1,27 @@
+{
+  "id": "bow",
+  "material": "BOW",
+  "components": {
+    "MAX_STACK_SIZE": 1,
+    "MAX_DAMAGE": 384,
+    "DAMAGE": 0,
+    "USE_EFFECTS": {},
+    "ITEM_NAME": {
+      "translate": "item.minecraft.bow"
+    },
+    "ITEM_MODEL": "minecraft:bow",
+    "LORE": [],
+    "RARITY": "common",
+    "ENCHANTMENTS": {
+      "minecraft:multishot": 255
+    },
+    "ATTRIBUTE_MODIFIERS": [],
+    "TOOLTIP_DISPLAY": {},
+    "REPAIR_COST": 0,
+    "ENCHANTABLE": {
+      "value": 1
+    },
+    "SWING_ANIMATION": {},
+    "BREAK_SOUND": "minecraft:entity.item.break"
+  }
+}
